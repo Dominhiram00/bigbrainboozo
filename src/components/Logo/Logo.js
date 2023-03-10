@@ -1,9 +1,13 @@
 import React from "react";
+import Tilt from 'react-parallax-tilt';
 
 const Logo = () => {
     return (
-        <div className = 'ma4 mt0'>
+    <Tilt>
+        <div style={{ height: '300px'}}>
+          <h1>AYO? 👀</h1>
         </div>
+    </Tilt>
     )
 }
 
