@@ -5,7 +5,7 @@ const Logo = () => {
     return (
     <Tilt>
         <div style={{ height: '300px'}}>
-          <h1>AYO? 👀</h1>
+          <h1>🧻Welcome to the Simple Site🧻</h1>
         </div>
     </Tilt>
     )
