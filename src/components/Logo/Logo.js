@@ -5,11 +5,13 @@ import fire from './fire.png';
 
 const Logo = () => {
     return (
-    <Tilt className = "br2 shadow-2">
-        <div style={{ height: '100px'}}>
-          <img alt = 'logo' src={fire}></img>
+    <div className = 'ma4 mt0'>
+    <Tilt className = "Tilt br2 shadow-2" options = {{max:55}} style={{ height: '150px', width: '150px'}}>
+        <div className = "Tilt-inner pa3">
+          <img style = {{paddingTop: '5px'}} alt = 'logo' src={fire}></img>
         </div>
     </Tilt>
+    </div>
     )
 }
 
